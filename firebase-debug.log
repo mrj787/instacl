@@ -1,0 +1,29 @@
+[debug] [2020-08-17T17:45:16.655Z] ----------------------------------------------------------------------
+[debug] [2020-08-17T17:45:16.660Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Novin Pendar.NOVIN_PENDAR\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:list
+[debug] [2020-08-17T17:45:16.660Z] CLI Version:   8.7.0
+[debug] [2020-08-17T17:45:16.661Z] Platform:      win32
+[debug] [2020-08-17T17:45:16.661Z] Node Version:  v12.18.2
+[debug] [2020-08-17T17:45:16.663Z] Time:          Mon Aug 17 2020 22:15:16 GMT+0430 (GMT+04:30)
+[debug] [2020-08-17T17:45:16.663Z] ----------------------------------------------------------------------
+[debug] [2020-08-17T17:45:16.664Z] 
+[debug] [2020-08-17T17:45:16.685Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-17T17:45:16.686Z] > authorizing via signed-in user
+[debug] [2020-08-17T17:45:16.699Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=1000  
+ 
+[debug] [2020-08-17T17:45:16.801Z] Server Error. getaddrinfo EAI_AGAIN firebase.googleapis.com
+[debug] [2020-08-17T17:45:16.807Z] FirebaseError: Server Error. getaddrinfo EAI_AGAIN firebase.googleapis.com
+    at Request._callback (C:\Users\Novin Pendar.NOVIN_PENDAR\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\Novin Pendar.NOVIN_PENDAR\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.onRequestError (C:\Users\Novin Pendar.NOVIN_PENDAR\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:327:22)
+    at ClientRequest.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:315:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
